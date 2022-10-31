@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.leftSideLogo>img{
+    width: 300px;
+    height: 100px;
+    margin-left: 45px;
+    
+}
+
+.CenterNavLogo>img{
+    width: 80px;
+    height: 80px;
+    margin-right: 250px;
+   
+    border-radius: 50%;
+    
+
+}
+
+.rightSideMenu>ul>li{
+    display: inline;
+    margin-right: 60px;
+    
+
+
+}
+
+.rightSideMenu>ul>li>a{
+    text-decoration: none;
+    color:#213055;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 1s;
+    
+
+    
+
+}
+.rightSideMenu>ul>li>a:hover{
+    font-size:19px;
+    transition: 1s;
+}
+
+.marqueeClass{
+    background-color: #F9F9F9;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    
+  
+
+}
+
+.marqueeClassLeft{
+    width: 300px;
+    height:70px ;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+    
+    
+}
+
+.textdiv{
+    width: 200px;
+    height: 30px;
+    background-color: #213055;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    
+
+    
+
+}
+.textdiv>h3{
+   color: white;
+   font-size: 18px;
+   font-weight: lighter;
+   
+
+
+}
+.marqueeClassRight{
+   
+    width: 1000px;
+    height:70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.marqueeClassRighttext{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marqueeClassRighttext>marquee>p{
+    color: #213055;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.sectionContainer{
+    padding-top: 100px;
+   width: 100%;
+   height: 1000px;
+   
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)) , url(../images/bg-image.png);
+}
+
+
+.carditems{
+    display: flex;
+    justify-content: space-evenly;
+    height: 556px;
+    width: 100vw;
+    
+
+}
+
+.card{
+    margin-top: 10px;
+    width: 300px;
+    height: 450px;
+    
+    background-color:  #F9F9F9;
+    border-radius: 6px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 1s;
+    
+
+}
+.card:hover{
+    
+   
+    transition: 1s;
+}
+
+
+
+
+
+
+.cardImgContainer>img{
+    width: 300px;
+    height: 176px;
+    border-radius: 3px;
+    
+    
+}
+
+.cardContentContainer{
+    padding: 10px
+}
+
+.cardHeader{
+    text-decoration: underline;
+    color: #213055;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.cardPara{
+    color: #213055;
+    font-size: 13px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    
+}
+
+
+.cardBtn{
+    height: 40px;
+    width: 280px;
+    margin-top: 25px;
+    color: white;
+    background-color: #007ACC;
+    border: none;
+    border: 2px solid #007ACC;
+
+    transition: 0.4s;
+
+
+    border-radius: 5px;
+}
+
+.cardBtn:hover{
+    cursor: pointer;
+    border: 2px solid #007ACC;
+    color:#007ACC;
+    background-color: white;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.footerContainer{
+    height: 200px;
+    width: 100vw;
+}
+
+
+
+
+
+
